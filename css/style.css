@@ -1,0 +1,54 @@
+@import url('reset.css');
+
+body {
+  background-color: #ccc;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+header,
+.top-aside,
+.bottom-aside,
+footer,
+main .column {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+header {
+  background-color: #9c4274;
+}
+
+.top-aside {
+  background-color: #166d8a;
+}
+
+main {
+  background-color: #3aa97f;
+  display: grid;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+main .column {
+  background-color: #e22d68;
+}
+
+.bottom-aside {
+  background-color: #2288a8;
+}
+
+footer {
+  background-color: #d97d30;
+}
